@@ -25,3 +25,6 @@ services:
         value: postgres
       - key: N8N_DB_POSTGRESDB_PASSWORD
         value: Bluerains22
+			- key: DNS_NAMESERVERS
+ 				value: "8.8.8.8,8.8.4.4"
+
