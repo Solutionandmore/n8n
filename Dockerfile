@@ -5,4 +5,4 @@ FROM n8nio/n8n:latest
 WORKDIR /data
 
 # Command mặc định để chạy n8n
-CMD ["sh", "-c", "ping -c 4 google.com || curl https://www.google.com"]
+CMD ["n8n"]
