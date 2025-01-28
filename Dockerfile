@@ -1,5 +1,5 @@
 # Sử dụng image chính thức từ Docker Hub
-FROM node:22
+FROM n8nio/n8n:latest
 # Đặt thư mục làm việc
 WORKDIR /data
 
