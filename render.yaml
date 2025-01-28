@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: n8n
+    env: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: N8N_ENCRYPTION_KEY
+        value: a8d7b97637d82ced9212269e0e3224d52d69462c
+      - key: N8N_DB_POSTGRESDB_HOST
+        value: db.tcsghskgyjvcbwxmirga.supabase.co
+      - key: N8N_DB_POSTGRESDB_PORT
+        value: 5432
+      - key: N8N_DB_POSTGRESDB_DATABASE
+        value: postgres
+      - key: N8N_DB_POSTGRESDB_USER
+        value: postgres.tcsghskgyjvcbwxmirga
+      - key: N8N_DB_POSTGRESDB_PASSWORD
+        value: Bluerains22
+      - key: NODE_VERSION
+        value: 22
+      - key: WEBHOOK_URL
+        value: n8n-ubrl.onrender.com
+      - key: DB_TYPE
+        value: postgresdb
+
