@@ -23,4 +23,10 @@ services:
         value: n8n-ubrl.onrender.com
       - key: DB_TYPE
         value: postgresdb
+			- key: N8N_BASIC_AUTH_ACTIVE
+        value: true
+			- key: N8N_BASIC_AUTH_USER
+        value: thien747@thienoi.vn
+			- key: N8N_BASIC_AUTH_PASSWORD
+        value: Bluerains22
 
