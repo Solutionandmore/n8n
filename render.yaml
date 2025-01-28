@@ -14,19 +14,17 @@ services:
       - key: N8N_ENCRYPTION_KEY
         value: 22081992
       - key: N8N_DB_POSTGRESDB_HOST
-        value: db.bwmwuoymwmbsvqjnhggi.supabase.co
+        value: db.tcsghskgyjvcbwxmirga.supabase.co
       - key: N8N_DB_POSTGRESDB_PORT
         value: 5432
       - key: N8N_DB_POSTGRESDB_DATABASE
         value: postgres
       - key: N8N_DB_POSTGRESDB_USER
-        value: postgres
+        value: postgres.tcsghskgyjvcbwxmirga
       - key: N8N_DB_POSTGRESDB_PASSWORD
         value: Bluerains22
-			- key: DNS_NAMESERVERS
- 				value: "8.8.8.8,8.8.4.4"
 		 - key: N8N_LICENSE_KEY
-  value: ee3dd27b-7bb2-4dcd-a76d-6364549a0a2d
+			  value: ee3dd27b-7bb2-4dcd-a76d-6364549a0a2d
 - key: N8N_SKIP_WEBHOOK_DEREGISTRATION_SHUTDOWN
   value: "true" # Ngăn việc xóa webhook khi tắt n8n
 - key: N8N_LOG_LEVEL
